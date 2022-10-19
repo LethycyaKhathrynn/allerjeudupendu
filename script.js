@@ -30,7 +30,7 @@ function atualizarJogo() {
 
 function mostrarLetrasErradas() {
   const div = document.querySelector(".letras-erradas-container");
-  div.innerHTML = "<h3>Letras erradas</h3>";
+  div.innerHTML = "<h3>Mauvaises lettres</h3>";
   letrasErradas.forEach((letra) => {
     div.innerHTML += `<span>${letra}</span>`;
   });
